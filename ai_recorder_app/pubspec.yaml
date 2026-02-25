@@ -40,7 +40,7 @@ dev_dependencies:
 
   # Isar 代码生成
   isar_generator: ^3.1.0+1
-  build_runner: ^2.11.1
+  build_runner: '>=2.4.0 <2.4.14'
 
 flutter:
   uses-material-design: true
