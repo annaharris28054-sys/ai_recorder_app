@@ -28,9 +28,9 @@ dependencies:
   audioplayers: ^6.5.1
   audio_waveforms: ^2.0.2
 
-  # 本地 AI 引擎
-  whisper_flutter_plus: ^1.0.0
-  fllama: ^0.0.1
+  # 本地 AI 引擎（CI 先不接入，避免 ffmpeg_dart 等缺失依赖；本机可后续按 development.md 接入）
+  # whisper_flutter_plus: ^1.0.0
+  # fllama: ^0.0.1
 
 dev_dependencies:
   flutter_test:
