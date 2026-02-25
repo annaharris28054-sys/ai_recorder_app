@@ -1,0 +1,51 @@
+name: ai_recorder_app
+description: AI 智能录音机 - 纯本地 Flutter 离线录音、转写与 AI 总结
+publish_to: "none"
+
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # 路由与状态管理
+  go_router: ^17.1.0
+  provider: ^6.1.5
+
+  # 本地数据库与存储
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  shared_preferences: ^2.5.4
+  path_provider: ^2.1.5
+
+  # 录音与播放
+  record: ^6.2.0
+  audioplayers: ^6.5.1
+  audio_waveforms: ^2.0.2
+
+  # 本地 AI 引擎
+  whisper_flutter_plus: ^1.0.0
+  fllama: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Isar 代码生成
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.11.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/
+    - assets/icons/
+
